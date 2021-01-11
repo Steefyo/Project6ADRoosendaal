@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.ControllerMap">
+   <children>
+      <GridPane fx:id="route" layoutX="106.0" layoutY="110.0" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0">
+      </GridPane>
+      <Text layoutX="906.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logs" />
+      <Text layoutX="106.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grid" />
+      <ScrollPane fx:id="status" layoutX="906.0" layoutY="118.0" prefHeight="395.0" prefWidth="300.0">
+         <content>
+            <AnchorPane prefHeight="90.0" prefWidth="290.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="22.0" prefHeight="18.0" prefWidth="250.0" text="Action" />
+                  <Label layoutX="14.0" layoutY="45.0" prefHeight="18.0" prefWidth="250.0" text="Progression" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button layoutX="1120.0" layoutY="594.0" mnemonicParsing="false" onAction="#backToInsert" text="Terug" />
+      <Button layoutX="951.0" layoutY="594.0" mnemonicParsing="false" onAction="#startBot" text="Start de route" />
+   </children>
+</AnchorPane>
