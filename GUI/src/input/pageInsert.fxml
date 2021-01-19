@@ -18,7 +18,7 @@
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#949494" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
             <TextField fx:id="fieldGridX" layoutX="84.0" layoutY="88.0" prefHeight="26.0" prefWidth="94.0" promptText="Grid size (width)" text="6" />
-            <TextField fx:id="fieldGridY" layoutX="84.0" layoutY="124.0" prefHeight="26.0" prefWidth="94.0" promptText="Grid size (height)" text="7" />
+            <TextField fx:id="fieldGridY" layoutX="84.0" layoutY="124.0" prefHeight="26.0" prefWidth="94.0" promptText="Grid size (height)" text="11" />
             <Text fill="WHITE" layoutX="26.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grid" wrappingWidth="94.0">
                <font>
                   <Font size="24.0" />
@@ -32,7 +32,7 @@
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#949494" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
             <TextField fx:id="fieldBotY" layoutX="53.0" layoutY="124.0" prefHeight="26.0" prefWidth="125.0" promptText="y" text="0" />
-            <TextField fx:id="fieldBotX" layoutX="53.0" layoutY="88.0" prefHeight="26.0" prefWidth="125.0" promptText="x" text="1" />
+            <TextField fx:id="fieldBotX" layoutX="53.0" layoutY="88.0" prefHeight="26.0" prefWidth="125.0" promptText="x" text="0" />
             <Text fill="WHITE" layoutX="14.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BoeBot" wrappingWidth="94.0">
                <font>
                   <Font size="24.0" />
@@ -45,8 +45,8 @@
       <Pane layoutX="775.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#949494" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
-            <TextField fx:id="fieldEndY" layoutX="53.0" layoutY="124.0" prefHeight="26.0" prefWidth="125.0" promptText="y" text="5" />
-            <TextField fx:id="fieldEndX" layoutX="53.0" layoutY="88.0" prefHeight="26.0" prefWidth="125.0" promptText="x" text="2" />
+            <TextField fx:id="fieldEndY" layoutX="53.0" layoutY="124.0" prefHeight="26.0" prefWidth="125.0" promptText="y" text="9" />
+            <TextField fx:id="fieldEndX" layoutX="53.0" layoutY="88.0" prefHeight="26.0" prefWidth="125.0" promptText="x" text="4" />
             <Text fill="WHITE" layoutX="14.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End Location" wrappingWidth="161.0">
                <font>
                   <Font size="24.0" />
@@ -59,7 +59,7 @@
       <Pane layoutX="304.0" layoutY="261.0" prefHeight="200.0" prefWidth="672.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#949494" height="200.0" stroke="BLACK" strokeType="INSIDE" width="672.0" />
-            <TextField fx:id="fieldObstacles" layoutX="26.0" layoutY="87.0" prefHeight="65.0" prefWidth="618.0" promptText="{{x,y},{1,1}}" text="1.3, 3.5, 3.4, 4.3" />
+            <TextField fx:id="fieldObstacles" layoutX="26.0" layoutY="87.0" prefHeight="65.0" prefWidth="618.0" promptText="{{x,y},{1,1}}" text="0.6, 1.6, 4.1, 5.6, 1.8, 2.8, 3.8, 4.8" />
             <Text fill="WHITE" layoutX="26.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Obstacles (max 10)" wrappingWidth="200.0">
                <font>
                   <Font size="24.0" />
@@ -77,14 +77,14 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <RadioButton fx:id="directionNorth" layoutX="29.0" layoutY="83.0" mnemonicParsing="false" onAction="#directionChange" selected="true" text="North">
+            <RadioButton fx:id="directionNorth" layoutX="29.0" layoutY="83.0" mnemonicParsing="false" onAction="#directionChange" text="North">
                <toggleGroup>
                   <ToggleGroup fx:id="directions" />
                </toggleGroup>
             </RadioButton>
             <RadioButton fx:id="directionSouth" layoutX="29.0" layoutY="123.0" mnemonicParsing="false" onAction="#directionChange" text="South" toggleGroup="$directions" />
             <RadioButton fx:id="directionEast" layoutX="183.0" layoutY="85.0" mnemonicParsing="false" onAction="#directionChange" text="East" toggleGroup="$directions" />
-            <RadioButton fx:id="directionWest" layoutX="183.0" layoutY="123.0" mnemonicParsing="false" onAction="#directionChange" text="West" toggleGroup="$directions" />
+            <RadioButton fx:id="directionWest" layoutX="183.0" layoutY="123.0" mnemonicParsing="false" onAction="#directionChange" text="West" selected="true" toggleGroup="$directions" />
          </children>
       </Pane>
    </children>

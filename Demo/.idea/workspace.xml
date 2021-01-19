@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f37f1a84-c5f1-4621-8d9c-cc04cacf9c9c" name="Default Changelist" comment="" />
+    <list default="true" id="f37f1a84-c5f1-4621-8d9c-cc04cacf9c9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/RobotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/RobotMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/a/AStar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/a/AStar$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/a/AStar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/a/AStar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/a/AStarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/a/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/a/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/include/ControllerNavigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/include/ControllerNavigation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/include/ControllerSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/input/ControllerInsertPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/input/ControllerInsertPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/input/pageInsert.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/input/pageInsert.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/map/ControllerMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/map/ControllerMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/map/pageMap.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/map/pageMap.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/src/input/pageInsert.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/src/input/pageInsert.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +33,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1kEQliwzhaKA5rjH8r4YmtzKa07" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164853887" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BoeBot/GUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GUI" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,6 +91,7 @@
       <workItem from="1607675977073" duration="2174000" />
       <workItem from="1607933030132" duration="726000" />
       <workItem from="1607938341163" duration="184000" />
+      <workItem from="1610698309783" duration="17760000" />
     </task>
     <servers />
   </component>
@@ -78,10 +103,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605264859143" />
-    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1607938520696">
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1610698540228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607938520696" />
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610698540228" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1605264074687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -102,5 +127,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607073013480" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RobotMain.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RobotMain.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
